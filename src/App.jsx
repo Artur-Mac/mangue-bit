@@ -17,7 +17,19 @@ import Info from "./components/Info/Info";
 const App = () => {
   return (
     <div className="App">
-      {/* BOTAR AS IMAGENZINHAS DO FUNDO!!! */}
+
+      {/* <div id="spot1">
+        <img src="/assets/svg/spot.svg" alt="" />
+      </div>
+
+      <div id="spot2">
+        <img src="/assets/svg/spot2.svg" alt="" />
+      </div>
+
+      <div id="spot3">
+        <img src="/assets/svg/spotmarrom.svg" alt="" />
+      </div> */}
+
       <Header
         pages={["Contato", "Suporte", "Produtos", "Nossa história"]}
         logo={logo}

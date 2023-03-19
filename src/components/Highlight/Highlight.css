@@ -11,7 +11,7 @@
   background: rgb(94, 193, 161);
   color: #ffffff;
 
-  padding: 14rem 3rem;
+  padding: 11.5rem 3rem;
   z-index: -1;
   width: 100vw;
   max-width: 1200px;
@@ -28,8 +28,7 @@
   z-index: 0;
   content: "";
   background-image: url(../../assets/circuit.png);
-  opacity: 0.057;
-  
+  opacity: 0.06;
 }
 
 .Highlight::after {
@@ -46,6 +45,7 @@
   font-size: 3rem;
   margin: 0;
   z-index: 1;
+  
 }
 
 .Highlight p,
@@ -66,7 +66,8 @@
 }
 
 .Highlight a:hover {
-  /* blahkfjhskajdh */
+  background: white;
+  color: #563939;
 }
 
 @media (min-width: 768px) {
